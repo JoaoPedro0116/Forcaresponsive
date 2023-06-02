@@ -147,6 +147,7 @@ function escolheLetra(letra) {
         setTimeout(()=>{alert("Você perdeu!");},1000)
         let botao = document.createElement("button");
         let t2 = document.createTextNode("jogar novamente");
+        const letras = document.getElementById("palavra")
     
         
         botao.appendChild(t2);
@@ -156,12 +157,14 @@ function escolheLetra(letra) {
 
         let div = document.getElementById("botao");
         div.appendChild(botao);
+        letras.style.marginTop = "10px";
     }
 
     if (acertos === palavra.length) {
         setTimeout(()=>{alert("Você ganhou!");},1000)
         let botao = document.createElement("button");
         let t2 = document.createTextNode("jogar novamente");
+        const letras = document.getElementById("palavra")
         
         botao.appendChild(t2);
         botao.setAttribute('class', 'botao1');
@@ -169,6 +172,7 @@ function escolheLetra(letra) {
 
         let div = document.getElementById("botao");
         div.appendChild(botao);
+        letras.style.marginTop = "10px";
     }
 }
 
