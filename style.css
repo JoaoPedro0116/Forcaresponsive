@@ -150,6 +150,10 @@ span{
     #teclado{
         width: 55%;
     }
+    
+    #dica{
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 660px)
