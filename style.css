@@ -81,6 +81,7 @@ button{
 
 footer{
     background-color: rgb(0, 0, 0);
+    margin-top: 15em;
 }
 ul{
     display: flex;
@@ -162,11 +163,17 @@ span{
     #dica{
         margin-top: 50px;
     }
+    footer{
+        margin-top: 5em;
+    }
 }
 
 @media (max-width: 660px)
 {
     #teclado{
         width: 75%;
+    }
+    footer{
+        margin-top: 10em;
     }
 }
